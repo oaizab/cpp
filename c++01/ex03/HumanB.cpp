@@ -2,7 +2,9 @@
 #include "HumanB.hpp"
 
 HumanB::HumanB(const std::string &name): name(name)
-{}
+{
+	this->weapon = NULL;
+}
 
 HumanB::~HumanB()
 {}
